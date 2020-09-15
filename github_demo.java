@@ -10,12 +10,15 @@ public class github_demo {
         num2 = ip.nextInt();
         int an = 0;
         while(an != 4) {
-        	System.out.print("1: show two number\n2: multiplication\n4: exit");
+        	System.out.print("1: show two number\n2: multiplication\n3: addition\n4: exit");
         	an = ip.nextInt();
         	if(an == 1)
         		System.out.print("num1: " + num1 + "\nnum2: " + num2 + "\n");
         	if(an == 2)
         		System.out.print("num1 * num2 is " + num1 *num2 + "\n");
+        	if(an == 3) {
+        		sum = num1 + num2; 
+        		System.out.print("num1 + num2 is " + sum + "\n");}
         }
     }
 }
