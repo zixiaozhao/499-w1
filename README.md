@@ -3,4 +3,4 @@
 ## This simple program that can do add and multiplication for the user
 ## The master version can only sort two integer 
 ## Each brench will contian one function of the program
-###you just simplely enter the number and choose what you want to do
+### you just simplely enter the number and choose what you want to do
